@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orchestra – Tout pour vos enfants de 0 à 14 ans</title>
+    <meta name="description" content="Vêtements, chaussures et puériculture pour enfants de 0 à 14 ans, à prix Club toute l'année.">
+
+    <link rel="preload" href="./fonts/Alphakind.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="./images/hero.png" as="image" fetchpriority="high">
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+  
+    <script src="./js/jquery-3.2.1.slim.min.js" defer></script>
+    <script src="./js/popper.min.js" defer></script>
+    <script src="./js/bootstrap.min.js" defer></script>
+</head>
+
+<body>
+
+<a class="skip-link sr-only sr-only-focusable" href="#main">Aller au contenu principal</a>
+
+<header>
+    <!-- get header from https://fr.shop-orchestra.com/ -->
+</header>
+
+<main id="main" tabindex="-1">
+
+<section class="hero" data-section-color="dark" aria-labelledby="hero-title">
+    <div class="title-container">
+        <p class="hero-kicker">Chouette,<br> il fait froid !!!</p>
+        <h1 id="hero-title">Tout pour vos enfants de 0 à 14 ans, à prix Club toute l'année !</h1>
+        <a class="btn primary" href="#">Couvrez-vous !</a>
+    </div>
+
+    <nav class="marquee" aria-label="Nos marques">
+        <div class="marquee__viewport">
+            <div class="marquee__track">
+                <ul class="marque-list">
+                    <li class="marque-list_item"><a href="#">Galipette</a></li>
+                    <li class="marque-list_item"><a href="#">Tamboor</a></li>
+                    <li class="marque-list_item"><a href="#">Sauthon</a></li>
+                    <li class="marque-list_item"><a href="#">Smoby</a></li>
+                    <li class="marque-list_item"><a href="#">Trixy</a></li>
+                    <li class="marque-list_item"><a href="#">Joie</a></li>
+                    <li class="marque-list_item"><a href="#">Béaba</a></li>
+                    <li class="marque-list_item"><a href="#">Tann's</a></li>
+                </ul>
+                <ul class="marque-list" aria-hidden="true">
+                    <li class="marque-list_item"><a href="#" tabindex="-1">Galipette</a></li>
+                    <li class="marque-list_item"><a href="#" tabindex="-1">Tamboor</a></li>
+                    <li class="marque-list_item"><a href="#" tabindex="-1">Sauthon</a></li>
+                    <li class="marque-list_item"><a href="#" tabindex="-1">Smoby</a></li>
+                    <li class="marque-list_item"><a href="#" tabindex="-1">Trixy</a></li>
+                    <li class="marque-list_item"><a href="#" tabindex="-1">Joie</a></li>
+                    <li class="marque-list_item"><a href="#" tabindex="-1">Béaba</a></li>
+                    <li class="marque-list_item"><a href="#" tabindex="-1">Tann's</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+    </nav>
+</section>
+
+<section class="winter" aria-labelledby="winter-title">
+    <div class="title-container">
+        <h2 id="winter-title">Notre collection d'hiver</h2>
+        <p>Doudounes, pulls tout doux et bonnets bien chauds : tout ce qu'il faut pour affronter le froid avec style</p>
+    </div>
+    <div class="images-container">
+        <img src="./images/photo2.png" data-order="1" width="110" height="232" loading="lazy" decoding="async"
+             alt="Petit garçon à lunettes en doudoune grise dans une forêt en automne">
+        <img src="./images/photo3.png" data-order="2" width="123" height="232" loading="lazy" decoding="async"
+             alt="Enfant en blouson noir et chapka dans les bras de sa maman">
+        <img src="./images/photo1.png" data-order="3" width="111" height="232" loading="lazy" decoding="async"
+             alt="Enfant en pull vert et bonnet noir qui joue dehors">
+    </div>
+    <a class="btn link" href="#">Découvrez notre collection</a>
+</section>
+
+<section class="club" aria-labelledby="club-title">
+    <div class="club-wrapper">
+        <div class="title-container">
+            <h2 id="club-title">Le Club toujours avec vous</h2>
+            <p>Les avantages du <img class="icon-club" src="./images/club.svg" width="29" height="15" alt="Club"> sont valables partout : en magasin, sur le site et via l’appli. Cela permet de bénéficier des réductions où que l’on soit, en toute flexibilité.</p>
+        </div>
+        <a class="btn secondary" href="#">J'adhère au Club</a>
+    </div>
+    <img class="club-visual" src="./images/50pc.svg" width="272" height="207" loading="lazy" alt="Club Orchestra : jusqu'à -50 % toute l'année">
+</section>
+
+<section class="best-product" aria-labelledby="best-product-title">
+    <div class="title-wrapper">
+        <h2 id="best-product-title">Découvrez nos produits phares</h2>
+
+        <fieldset class="category-filter">
+            <legend class="sr-only">Filtrer les produits par catégorie</legend>
+            <div class="category-filter_list">
+                <label class="category-filter_item"><input type="radio" name="category" value="fille" checked> Fille</label>
+                <label class="category-filter_item"><input type="radio" name="category" value="garcon"> Garçon</label>
+                <label class="category-filter_item"><input type="radio" name="category" value="bebe-fille"> Bébé fille</label>
+                <label class="category-filter_item"><input type="radio" name="category" value="bebe-garcon"> Bébé garçon</label>
+                <label class="category-filter_item"><input type="radio" name="category" value="mois-du-bebe"> Mois du bébé</label>
+            </div>
+        </fieldset>
+    </div>
+
+    <div id="products-carousel" class="carousel slide carousel-products" data-ride="carousel" data-interval="false"
+         role="region" aria-roledescription="carrousel" aria-label="Produits phares">
+        <div class="carousel-inner" aria-live="polite">
+            <div class="carousel-item active" role="group" aria-roledescription="diapositive" aria-label="1 sur 3">
+
+                <article class="carousel-products_item">
+                    <div class="image-container">
+                        <img class="image-main" src="./images/photo1.png" width="111" height="232" loading="lazy" decoding="async" alt="">
+                        <img class="image-hover" src="./images/photo2.png" width="110" height="232" loading="lazy" decoding="async" alt="">
+                        <button class="btn primary btn-favorite" type="button" data-toggle="button" aria-pressed="false"
+                                aria-label="Favoris : Sweat en molleton imprimé fantaisie">
+                            <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                                <path d="M12 20.5s-7.5-4.6-9.4-9.1C1.2 8.1 3.4 4.5 6.9 4.5c2.1 0 3.6 1.2 5.1 3 1.5-1.8 3-3 5.1-3 3.5 0 5.7 3.6 4.3 6.9-1.9 4.5-9.4 9.1-9.4 9.1Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                            </svg>
+                            <span class="label-default" aria-hidden="true">Favoris</span>
+                            <span class="label-added" aria-hidden="true">Ajouté !</span>
+                        </button>
+                    </div>
+                    <h3 class="product-name"><a class="product-link" href="#">Sweat en molleton imprimé fantaisie</a></h3>
+                    <p class="price-wrapper">
+                        <span class="true-price"><span class="sr-only">Prix normal :</span> 7,99€</span>
+                        <span class="club-price"><span class="sr-only">Prix Club :</span> 3,99€ <img src="./images/club.svg" width="29" height="15" alt=""></span>
+                    </p>
+                </article>
+
+                <article class="carousel-products_item">
+                    <div class="image-container">
+                        <img class="image-main" src="./images/photo2.png" width="110" height="232" loading="lazy" decoding="async" alt="">
+                        <img class="image-hover" src="./images/photo3.png" width="123" height="232" loading="lazy" decoding="async" alt="">
+                        <button class="btn primary btn-favorite" type="button" data-toggle="button" aria-pressed="false"
+                                aria-label="Favoris : Sweat en molleton imprimé fantaisie">
+                            <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                                <path d="M12 20.5s-7.5-4.6-9.4-9.1C1.2 8.1 3.4 4.5 6.9 4.5c2.1 0 3.6 1.2 5.1 3 1.5-1.8 3-3 5.1-3 3.5 0 5.7 3.6 4.3 6.9-1.9 4.5-9.4 9.1-9.4 9.1Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                            </svg>
+                            <span class="label-default" aria-hidden="true">Favoris</span>
+                            <span class="label-added" aria-hidden="true">Ajouté !</span>
+                        </button>
+                    </div>
+                    <h3 class="product-name"><a class="product-link" href="#">Sweat en molleton imprimé fantaisie</a></h3>
+                    <p class="price-wrapper">
+                        <span class="true-price"><span class="sr-only">Prix normal :</span> 7,99€</span>
+                        <span class="club-price"><span class="sr-only">Prix Club :</span> 3,99€ <img src="./images/club.svg" width="29" height="15" alt=""></span>
+                    </p>
+                </article>
+
+                <article class="carousel-products_item">
+                    <div class="image-container">
+                        <img class="image-main" src="./images/photo3.png" width="123" height="232" loading="lazy" decoding="async" alt="">
+                        <img class="image-hover" src="./images/photo1.png" width="111" height="232" loading="lazy" decoding="async" alt="">
+                        <button class="btn primary btn-favorite" type="button" data-toggle="button" aria-pressed="false"
+                                aria-label="Favoris : Sweat en molleton imprimé fantaisie">
+                            <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                                <path d="M12 20.5s-7.5-4.6-9.4-9.1C1.2 8.1 3.4 4.5 6.9 4.5c2.1 0 3.6 1.2 5.1 3 1.5-1.8 3-3 5.1-3 3.5 0 5.7 3.6 4.3 6.9-1.9 4.5-9.4 9.1-9.4 9.1Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                            </svg>
+                            <span class="label-default" aria-hidden="true">Favoris</span>
+                            <span class="label-added" aria-hidden="true">Ajouté !</span>
+                        </button>
+                    </div>
+                    <h3 class="product-name"><a class="product-link" href="#">Sweat en molleton imprimé fantaisie</a></h3>
+                    <p class="price-wrapper">
+                        <span class="true-price"><span class="sr-only">Prix normal :</span> 7,99€</span>
+                        <span class="club-price"><span class="sr-only">Prix Club :</span> 3,99€ <img src="./images/club.svg" width="29" height="15" alt=""></span>
+                    </p>
+                </article>
+
+                <article class="carousel-products_item">
+                    <div class="image-container">
+                        <img class="image-main" src="./images/photo1.png" width="111" height="232" loading="lazy" decoding="async" alt="">
+                        <img class="image-hover" src="./images/photo3.png" width="123" height="232" loading="lazy" decoding="async" alt="">
+                        <button class="btn primary btn-favorite" type="button" data-toggle="button" aria-pressed="false"
+                                aria-label="Favoris : Sweat en molleton imprimé fantaisie">
+                            <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                                <path d="M12 20.5s-7.5-4.6-9.4-9.1C1.2 8.1 3.4 4.5 6.9 4.5c2.1 0 3.6 1.2 5.1 3 1.5-1.8 3-3 5.1-3 3.5 0 5.7 3.6 4.3 6.9-1.9 4.5-9.4 9.1-9.4 9.1Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                            </svg>
+                            <span class="label-default" aria-hidden="true">Favoris</span>
+                            <span class="label-added" aria-hidden="true">Ajouté !</span>
+                        </button>
+                    </div>
+                    <h3 class="product-name"><a class="product-link" href="#">Sweat en molleton imprimé fantaisie</a></h3>
+                    <p class="price-wrapper">
+                        <span class="true-price"><span class="sr-only">Prix normal :</span> 7,99€</span>
+                        <span class="club-price"><span class="sr-only">Prix Club :</span> 3,99€ <img src="./images/club.svg" width="29" height="15" alt=""></span>
+                    </p>
+                </article>
+
+            </div>
+
+            <div class="carousel-item" role="group" aria-roledescription="diapositive" aria-label="2 sur 3">
+
+                <article class="carousel-products_item">
+                    <div class="image-container">
+                        <img class="image-main" src="./images/photo3.png" width="123" height="232" loading="lazy" decoding="async" alt="">
+                        <img class="image-hover" src="./images/photo1.png" width="111" height="232" loading="lazy" decoding="async" alt="">
+                        <button class="btn primary btn-favorite" type="button" data-toggle="button" aria-pressed="false"
+                                aria-label="Favoris : Sweat en molleton imprimé fantaisie">
+                            <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                                <path d="M12 20.5s-7.5-4.6-9.4-9.1C1.2 8.1 3.4 4.5 6.9 4.5c2.1 0 3.6 1.2 5.1 3 1.5-1.8 3-3 5.1-3 3.5 0 5.7 3.6 4.3 6.9-1.9 4.5-9.4 9.1-9.4 9.1Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                            </svg>
+                            <span class="label-default" aria-hidden="true">Favoris</span>
+                            <span class="label-added" aria-hidden="true">Ajouté !</span>
+                        </button>
+                    </div>
+                    <h3 class="product-name"><a class="product-link" href="#">Sweat en molleton imprimé fantaisie</a></h3>
+                    <p class="price-wrapper">
+                        <span class="true-price"><span class="sr-only">Prix normal :</span> 7,99€</span>
+                        <span class="club-price"><span class="sr-only">Prix Club :</span> 3,99€ <img src="./images/club.svg" width="29" height="15" alt=""></span>
+                    </p>
+                </article>
+
+                <article class="carousel-products_item">
+                    <div class="image-container">
+                        <img class="image-main" src="./images/photo1.png" width="111" height="232" loading="lazy" decoding="async" alt="">
+                        <img class="image-hover" src="./images/photo3.png" width="123" height="232" loading="lazy" decoding="async" alt="">
+                        <button class="btn primary btn-favorite" type="button" data-toggle="button" aria-pressed="false"
+                                aria-label="Favoris : Sweat en molleton imprimé fantaisie">
+                            <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                                <path d="M12 20.5s-7.5-4.6-9.4-9.1C1.2 8.1 3.4 4.5 6.9 4.5c2.1 0 3.6 1.2 5.1 3 1.5-1.8 3-3 5.1-3 3.5 0 5.7 3.6 4.3 6.9-1.9 4.5-9.4 9.1-9.4 9.1Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                            </svg>
+                            <span class="label-default" aria-hidden="true">Favoris</span>
+                            <span class="label-added" aria-hidden="true">Ajouté !</span>
+                        </button>
+                    </div>
+                    <h3 class="product-name"><a class="product-link" href="#">Sweat en molleton imprimé fantaisie</a></h3>
+                    <p class="price-wrapper">
+                        <span class="true-price"><span class="sr-only">Prix normal :</span> 7,99€</span>
+                        <span class="club-price"><span class="sr-only">Prix Club :</span> 3,99€ <img src="./images/club.svg" width="29" height="15" alt=""></span>
+                    </p>
+                </article>
+
+            </div>
+
+            <div class="carousel-item" role="group" aria-roledescription="diapositive" aria-label="3 sur 3">
+
+                <article class="carousel-products_item">
+                    <div class="image-container">
+                        <img class="image-main" src="./images/photo2.png" width="110" height="232" loading="lazy" decoding="async" alt="">
+                        <img class="image-hover" src="./images/photo1.png" width="111" height="232" loading="lazy" decoding="async" alt="">
+                        <button class="btn primary btn-favorite" type="button" data-toggle="button" aria-pressed="false"
+                                aria-label="Favoris : Sweat en molleton imprimé fantaisie">
+                            <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                                <path d="M12 20.5s-7.5-4.6-9.4-9.1C1.2 8.1 3.4 4.5 6.9 4.5c2.1 0 3.6 1.2 5.1 3 1.5-1.8 3-3 5.1-3 3.5 0 5.7 3.6 4.3 6.9-1.9 4.5-9.4 9.1-9.4 9.1Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                            </svg>
+                            <span class="label-default" aria-hidden="true">Favoris</span>
+                            <span class="label-added" aria-hidden="true">Ajouté !</span>
+                        </button>
+                    </div>
+                    <h3 class="product-name"><a class="product-link" href="#">Sweat en molleton imprimé fantaisie</a></h3>
+                    <p class="price-wrapper">
+                        <span class="true-price"><span class="sr-only">Prix normal :</span> 7,99€</span>
+                        <span class="club-price"><span class="sr-only">Prix Club :</span> 3,99€ <img src="./images/club.svg" width="29" height="15" alt=""></span>
+                    </p>
+                </article>
+
+            </div>
+        </div>
+
+        <div class="carousel-products__nav">
+            <button class="carousel-control-prev" type="button" data-target="#products-carousel" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Produits précédents</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-target="#products-carousel" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Produits suivants</span>
+            </button>
+        </div>
+    </div>
+
+    <a class="btn link" href="#">Voir tous nos produits</a>
+</section>
+
+<section class="bento" aria-label="Nos univers">
+    
+    <ul class="cards-wrapper">
+        <li class="bento-card">
+            <picture>
+                <img src="./images/bg-header-desktop-ln%201.png" width="360" height="360" loading="lazy" decoding="async" alt="">
+            </picture>
+            <div class="card-content">
+                <h2>Future maman</h2>
+                <a class="card-link" href="#"><span class="btn primary">Voir la collection<span class="sr-only"> Future maman</span></span></a>
+            </div>
+        </li>
+
+        <li class="bento-card">
+            <picture>
+                <img src="./images/mike-cox-tRuD5RHbPUo-unsplash 1.png" width="360" height="205" loading="lazy" decoding="async" alt="">
+            </picture>
+            <div class="card-content">
+                <h2>Bébé 0-36 mois</h2>
+                <a class="card-link" href="#"><span class="btn primary">Voir la collection<span class="sr-only"> Bébé 0-36 mois</span></span></a>
+            </div>
+        </li>
+
+        <li class="bento-card">
+            <picture>
+                <img src="./images/mediamodifier-VoXqvbLAPjM-unsplash%201.png" width="360" height="360" loading="lazy" decoding="async" alt="">
+            </picture>
+            <div class="card-content">
+                <h2>Bons plans</h2>
+                <a class="card-link" href="#"><span class="btn primary">Voir la collection<span class="sr-only"> Bons plans</span></span></a>
+            </div>
+        </li>
+    </ul>
+</section>
+
+<section class="history" aria-labelledby="history-title">
+    <div class="history-wrapper">
+        <div class="title-container">
+            <h2 id="history-title">Orchestra c’est quoi, c’est qui ?</h2>
+            <p>Nous sommes avant tout une famille de passionnés, une famille au service des familles.</p>
+            <p><strong>Notre leitmotiv ? Faciliter la vie des parents !</strong> Au travers de produits, conseils d'experts et de services qui rendent vraiment service nous sommes là pour accompagner toutes les familles et faire de leur quotidien un vrai jeu d'enfant.</p>
+            <p>Au tout début des années 90, Chantal et Pierre Mestre ont une ambition commune : inventer et créer une marque de vêtements pour enfants colorée, 100% Montpelliéraine mais pas que !</p>
+        </div>
+
+        <picture>
+            <img src="./images/orchestra-leclerc-adherent-pau.png" width="558" height="442" loading="lazy" decoding="async"
+                 alt="Intérieur d'un magasin Orchestra : portants de vêtements enfants colorés et affiches Club -50 %">
+        </picture>
+    </div>
+</section>
+
+
+</main>
+
+<footer>
+    <!-- get footer from https://fr.shop-orchestra.com/ -->
+</footer>
+
+</body>
+</html>

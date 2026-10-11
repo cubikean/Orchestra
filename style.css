@@ -315,7 +315,7 @@ main > section {
 
 .images-container {
   display: grid;
-  gap: 8px;
+  gap: 20px;
   width: 100%;
   grid-template-areas:
     "img1 img1"

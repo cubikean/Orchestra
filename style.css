@@ -422,7 +422,7 @@ main > section {
 
 .best-product {
   gap: 24px;
-  padding: var(--section-space) var(--gutter);
+  padding: 0 var(--gutter) var(--section-space) var(--gutter);
 
   @media (width >= 767px) {
     gap: 48px;

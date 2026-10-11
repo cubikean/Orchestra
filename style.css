@@ -195,7 +195,7 @@ main > section {
     padding: var(--gutter);
     background:
       linear-gradient(to top, rgb(0 0 0 / 0.55), rgb(0 0 0 / 0) 55%),
-      url(./images/hero.png) center / cover no-repeat;
+      url(./images/hero.webp) center / cover no-repeat;
   }
 
   .hero-kicker {

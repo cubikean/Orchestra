@@ -593,7 +593,7 @@ main > section {
 .btn-favorite {
   position: absolute;
   z-index: 2;
-  bottom: 8px;
+  top: 8px;
   right: 8px;
   translate: 0% 0;
   padding: 8px;

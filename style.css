@@ -233,7 +233,7 @@ main > section {
 .marquee__viewport {
   display: flex;
   width: max-content;
-  animation: marquee-scroll 16s linear infinite;
+  animation: marquee-scroll 20s linear infinite;
 }
 
 .marquee__track {

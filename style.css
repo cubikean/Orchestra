@@ -239,6 +239,7 @@ main > section {
 .marquee__track {
   display: flex;
   width: max-content;
+  gap: var(--marquee-gap);
 }
 
 .marquee__viewport:is(:hover, :focus-within),

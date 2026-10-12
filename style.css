@@ -594,9 +594,9 @@ main > section {
   position: absolute;
   z-index: 2;
   bottom: 8px;
-  left: 50%;
-  translate: -50% 0;
-  padding: 6px 12px;
+  right: 8px;
+  translate: 0% 0;
+  padding: 8px;
   font-size: 0.75rem;
   transition:
     opacity var(--duration),
